@@ -1,9 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-  <channel>
-    <title>Kleanly Updates</title>
-    <link>https://haider-nawaz.github.io/Kleanly-Updates/</link>
-    <description>Secure software updates for Kleanly.</description>
-    <language>en</language>
-  </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Kleanly Updates</title>
+        <link>https://haider-nawaz.github.io/Kleanly-Updates/</link>
+        <description>Secure software updates for Kleanly.</description>
+        <language>en</language>
+        <item>
+            <title>2.1</title>
+            <pubDate>Sat, 08 Aug 2026 03:41:36 +0500</pubDate>
+            <link>https://haidernawaz8.gumroad.com/l/tiyffv</link>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Kleanly 2.1
+
+- Added the interactive notch control with clear start and stop actions.
+- Added automatic Sparkle updates with signed downloads.
+- Added Gumroad license activation for one Mac per purchase.
+- Added **Deactivate This Mac** so a license can be moved safely.
+- Refined cleaning animations, feedback, and settings.
+]]></description>
+            <enclosure url="https://haider-nawaz.github.io/Kleanly-Updates/downloads/Kleanly-2.1.zip" length="3571506" type="application/octet-stream" sparkle:edSignature="0NGOsO9k5CE3fCq0gnvnF+/Q1+qjsLwqIXMlkxhpPavYGHDAPAqs6+/NzvJVDg5vXEn17Ty3uKBQIfiiHjpvCQ=="/>
+        </item>
+    </channel>
 </rss>
