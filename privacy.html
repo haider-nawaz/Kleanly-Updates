@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kleanly Privacy Policy</title>
+  <meta name="description" content="What Kleanly collects, why, and how to opt out.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #fbfbfd;
+      --text: #1d1d1f;
+      --muted: #6e6e73;
+      --rule: #e5e5ea;
+      --link: #0066cc;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111113;
+        --text: #f5f5f7;
+        --muted: #a1a1a6;
+        --rule: #2c2c2e;
+        --link: #4da3ff;
+      }
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+    }
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 56px 16px 80px;
+    }
+    h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 4px; }
+    h2 { font-size: 1.2rem; margin: 40px 0 8px; }
+    p, li { margin: 0 0 12px; }
+    ul { padding-left: 20px; }
+    .muted { color: var(--muted); }
+    a { color: var(--link); }
+    hr { border: 0; border-top: 1px solid var(--rule); margin: 32px 0; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Kleanly Privacy Policy</h1>
+  <p class="muted">Effective September 16, 2026</p>
+
+  <p>Kleanly is a Mac app, made by Haider Nawaz, that pauses your keyboard, trackpad, and screen so you can clean your Mac. This page explains what information Kleanly handles and the choices you have.</p>
+
+  <h2>Keyboard, trackpad, and screen</h2>
+  <p>Kleanly asks for Accessibility permission so it can pause input while you clean. Input events are examined on your Mac only to block them and to detect the double tap that ends a session. Kleanly never records, stores, or sends what you type, what you click, or what is on your screen.</p>
+
+  <h2>Usage analytics</h2>
+  <p>To understand how Kleanly is used and to find problems, the app sends usage events to <a href="https://mixpanel.com/legal/privacy-policy/">Mixpanel</a>. These include:</p>
+  <ul>
+    <li>App launches and exits, cleaning sessions and their duration, and which cleaning options are on.</li>
+    <li>Settings changes, update checks, and whether license activation succeeded.</li>
+    <li>Crash and hang diagnostics provided by macOS, such as the exception type and code locations. These do not include your files or input.</li>
+  </ul>
+  <p>Events are tied to a random identifier created when Kleanly first opens. It is not linked to your name, email, or license. Mixpanel also records device details such as your macOS version, Mac model, and app version, plus an approximate location (such as city and country) that it derives from your IP address.</p>
+  <p><strong>Opting out:</strong> turn off <em>Share Usage Analytics</em> in Kleanly Settings &gt; General. Kleanly then stops sending events and asks Mixpanel to delete the profile tied to your identifier.</p>
+
+  <h2>Licensing</h2>
+  <p>Kleanly is sold through <a href="https://gumroad.com/privacy">Gumroad</a>, which handles your purchase and payment details under its own privacy policy.</p>
+  <p>When you activate Kleanly, and about once a day afterwards, the app sends your license key, the product identifier, and an installation identifier to Kleanly's license service, which runs on <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare</a>. The installation identifier is a one-way hash derived from your Mac's hardware identifier; it lets the service tell your Macs apart but cannot be turned back into the original value. The service checks your purchase with Gumroad and stores a hash of your license key, the installation identifier, and the times the license was activated or moved. It does not store your license key itself.</p>
+  <p>On your Mac, Kleanly keeps your license key and the email address on your purchase in your Keychain.</p>
+
+  <h2>Updates and other content</h2>
+  <ul>
+    <li><strong>Updates:</strong> Kleanly checks for updates about once a day by downloading an update feed from GitHub Pages. The request identifies the Kleanly version but includes no other information about your Mac.</li>
+    <li><strong>More Apps:</strong> the More Apps page downloads a list of apps from GitHub.</li>
+    <li><strong>Feedback:</strong> the Feedback page shows a third-party feedback board. Anything you submit there is handled by that service.</li>
+  </ul>
+  <p>As with any web request, these services receive your IP address and may log it under their own policies.</p>
+
+  <h2>Support email</h2>
+  <p>If you contact support, your email and anything you include are used only to help you.</p>
+
+  <h2>Your choices and requests</h2>
+  <p>You can turn off analytics at any time in Settings. To ask for your analytics data or license record to be deleted, email <a href="mailto:haidernawaz737@gmail.com">haidernawaz737@gmail.com</a>. Deleting a license record releases the activation, so you may need to activate Kleanly again.</p>
+  <p>Kleanly does not sell your information and does not use it for advertising.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the updated version will be posted on this page with a new effective date.</p>
+
+  <hr>
+  <p class="muted">Questions? Email <a href="mailto:haidernawaz737@gmail.com">haidernawaz737@gmail.com</a>.</p>
+</main>
+</body>
+</html>
