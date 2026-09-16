@@ -6,6 +6,30 @@
         <description>Secure software updates for Kleanly.</description>
         <language>en</language>
         <item>
+            <title>2.2</title>
+            <pubDate>Wed, 16 Sep 2026 05:38:13 +0500</pubDate>
+            <link>https://haidernawaz8.gumroad.com/l/tiyffv</link>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Kleanly 2.2
+
+- Move your license to a new Mac right from the activation window, even if the old Mac is gone.
+- Reinstalling Kleanly on the same Mac now reactivates without using up your license.
+- Opening Kleanly from Spotlight or Applications now shows Settings, so you can always find it when the notch control is hidden.
+- New Share Usage Analytics setting and a link to the privacy policy.
+- Kleanly now asks before opening at login.
+- The notch control no longer checks the pointer when your Mac is idle, which saves energy.
+- On displays without a notch, the control is a small tab that waits a moment before opening.
+- Granting Accessibility permission no longer starts cleaning on its own.
+- Added Contact Support to the activation window and About page.
+]]></description>
+            <enclosure url="https://haider-nawaz.github.io/Kleanly-Updates/downloads/Kleanly-2.2.zip" length="3714656" type="application/octet-stream" sparkle:edSignature="bFXE3B4LvxiuHN4bNLPS9siSHxKQUfg9QNwoLTZ7S42TnaywXFMSguOLbWdxyeso8cqUJOc1F92wbo12z9cUBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://haider-nawaz.github.io/Kleanly-Updates/downloads/kleanly2-1.delta" sparkle:deltaFrom="1" length="703214" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="j2tEOLDi6ghfP3+PlO2wjHSZ2zOZuGiZIO/aBmExAzZ8CYmF+JYnUvHnwm5vALOXDt4DfeG9cMzgVRrEyKjrCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>2.1</title>
             <pubDate>Sat, 08 Aug 2026 03:41:36 +0500</pubDate>
             <link>https://haidernawaz8.gumroad.com/l/tiyffv</link>
